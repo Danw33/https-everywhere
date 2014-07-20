@@ -1,0 +1,13 @@
+<ruleset name="Huntley and Palmers">
+    
+    <!-- Huntley and Palmers - Online Shop (Shop Made) -->
+    <target host="huntleyandpalmers.com" />
+    <target host="www.huntleyandpalmers.com" />
+    
+    <!-- Rule for no subdomain - http://huntleyandpalmers.com -->
+    <rule from="^http://huntleyandpalmers\.com/" to="https://www.huntleyandpalmers.com" />
+    
+    <!-- Rule for www subdomain - http://www.huntleyandpalmers.com -->
+    <rule from="^http://www\.huntleyandpalmers\.com/" to="https://www.huntleyandpalmers.com" />
+    
+</ruleset>
