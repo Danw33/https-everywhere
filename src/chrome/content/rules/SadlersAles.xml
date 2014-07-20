@@ -1,0 +1,13 @@
+<ruleset name="Sadlers Ales">
+    
+    <!-- Sadlers Ales - Online Shop (Shop Made) -->
+    <target host="sadlersales.co.uk" />
+    <target host="www.sadlersales.co.uk" />
+
+    <!-- Rule for no subdomain - http://sadlersales.co.uk -->
+    <rule from="^http://sadlersales\.co\.uk/" to="https://www.sadlersales.co.uk" />
+    
+    <!-- Rule for www subdomain - http://www.sadlersales.co.uk -->
+    <rule from="^http://www\.sadlersales\.co\.uk/" to="https://www.sadlersales.co.uk" />
+
+</ruleset>
